@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch add-on",
+            "firefoxExecutable": "/x/firefox-developer-edition",
+            "addonPath": "${workspaceFolder}"
+        }
+    ]
+}

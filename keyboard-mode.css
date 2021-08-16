@@ -1,0 +1,29 @@
+.linkTag {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 8pt;
+    font-family: sans-serif;
+    padding: 1px;
+    border: none;
+    margin: 0;
+    line-height: 1;
+    position: fixed;
+    z-index: 1001;
+}
+
+.taggedLink {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.highlightedLink {
+    outline: solid yellow 1px;
+}
+
+.taggedLinkOutline {
+    outline: solid lightblue 5px;
+    position: fixed;
+    z-index: 1000;
+}

@@ -1,0 +1,30 @@
+{
+
+	"manifest_version": 2,
+	"name": "Module Tester",
+	"version": "1.0",
+
+	"description": "Experiment with using Javascript modules in extensions.",
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "commands": {
+        "start": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Space"
+            },
+            "description": "Toggle keyboard mode."
+        }
+    },
+
+	"background": {
+		"page": "background.html"
+	},
+
+    "web_accessible_resources": [
+        "modules.js",
+        "modules/*"
+    ]
+}
